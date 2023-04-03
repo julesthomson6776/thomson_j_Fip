@@ -139,3 +139,40 @@ you work on and the intended audience */
  align-items: center;
  
  }
+
+ #hero {
+	margin-top: 60px;
+}
+
+#hero-text {
+	grid-column: 1/8;
+	height: 582px;
+    font-size: 30px;
+    color: black;
+}
+
+#hero-image {
+	grid-column: 8/-1;
+	height: 582px;
+}
+
+.box-color2 {
+    background-color: white;
+}
+
+#button {
+   background-color: #8fbc8f; 
+   color: black;
+}
+
+.button{
+    background-color: #8fbc8f;
+}
+
+/* main body */
+
+
+
+
+
+
