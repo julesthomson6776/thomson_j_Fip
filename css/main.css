@@ -209,5 +209,60 @@ you work on and the intended audience */
     padding-top: 20px;
 }
 
+/* adding the contact form */
+
+#contact {
+	margin-top: 100px;
+	margin-bottom: 100px;
+    
+}
+
+#contact-text {
+	grid-column: 1/8;
+	height: 700px;
+    text-align: left;
+    color: black;
+    background-color: white;
+}
+
+#contact-form {
+	grid-column: 8/-1;
+	height: 700px;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid black; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+
+  .container {
+    border-radius: 5px;
+    background-color:#8fbc8f;
+    padding: 20px;
+    color:  black;
+  }
+
 
 
