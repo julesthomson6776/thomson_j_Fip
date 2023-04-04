@@ -200,6 +200,14 @@ you work on and the intended audience */
 	height: 507px;
 }
 
+#big-box {
+    width: 1200px;
+    background-color:#8fbc8f;
+    text-align:center;
+    height: 550px;
+    font-size: 20px;
+    padding-top: 20px;
+}
 
 
 
