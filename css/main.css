@@ -1,8 +1,5 @@
 @charset "UTF-8";
 
-
-/*Remove this rule on your HTML elements as you start to fill them with content*/
-
 .box-color {
 	color: #fff;
 	background:	#8fbc8f;
@@ -353,9 +350,14 @@ input[type=text], select, textarea {
 	
 }
 
+/* contols the middle boxes*/
+
 #gallery h2 {
 	grid-column: 1/-1;
 	text-align: center;
+	margin-top: 650px;
+	margin-left: -100px;
+	
   }
 
 .gallery-box {
@@ -364,6 +366,92 @@ input[type=text], select, textarea {
 	/* Remove as content will dictate height */
 	height: 507px;
 	margin-bottom: 20px;
-	
+	margin-top: 30px;
+	position: center,sticky;
+	margin-left: -100px;
+	background-color: #8fbc8f;
+	text-align: center;
 }
+
+#gallery h3{
+	background-color: #8fbc8f;
+	text-align: left;
+}
+
+#text{
+	margin-right: 110px;
+	margin-left: -110px;
+}
+
+#text2{
+	margin-right: 60px;
+	margin-left: -60px ;
+}
+
+#text3 {
+	margin-left: -30px ;
+	margin-right: 30px ;
+}
+
+#text4{
+	margin-right: 110px;
+	margin-left: -110px;
+}
+
+#text5{
+	margin-right: 60px;
+	margin-left: -60px ;
+}
+
+#text6{
+	margin-left: -30px ;
+	margin-right: 30px ;
+}
+
+#text7{
+	margin-right: 110px;
+	margin-left: -110px;
+}
+
+#text8{
+	margin-right: 60px;
+	margin-left: -60px ;
+}
+
+#text9{
+	margin-left: -30px ;
+	margin-right: 30px ;
+}
+
+#text10{
+	margin-right: 110px;
+	margin-left: -110px;
+}
+
+#text11{
+	margin-right: 60px;
+	margin-left: -60px ;
+}
+
+#text12{
+	margin-left: -30px ;
+	margin-right: 30px ;
+}
+
+#text13{
+	margin-right: 110px;
+	margin-left: -110px;
+}
+
+#text14{
+	margin-right: 60px;
+	margin-left: -60px ;
+}
+
+#text15{
+	margin-left: -30px ;
+	margin-right: 30px ;
+}
+
+/*footer*/
 
