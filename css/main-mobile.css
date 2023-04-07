@@ -96,3 +96,78 @@ you work on and the intended audience, we may go as low as 320px */
 	height: 458px;
    margin-left: 510px;
 }
+
+/*slider images*/
+
+#image-slider-con {
+	background-color: #dddddd;
+	/* Remove as content will dictate height */
+	height: 640px;
+	position: relative;
+    width: 450px;
+    margin-left: 500px;
+    text-align: center;
+    background-color: #8fbc8f;
+    font-size: 15px;
+}
+
+#image-slider-con h2 {
+	background-color: #ffffff;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	margin: 0;
+}
+
+
+#mobile-slider-left {
+	position: absolute;
+	left: 0;
+	font-size: 120px;
+	color:#fff;
+	top: 200px;
+    
+}
+
+#mobile-slider-right {
+	position: absolute;
+	right: 0;
+	font-size: 120px;
+	color:#fff;
+	top: 200px;
+}
+
+
+#about-us-con h2 {
+	background-color: #ffffff;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 70px;
+	margin: 0;
+}
+
+#about-us-text-con {
+	background-color:#8fbc8f;
+    width: 450px;
+    margin-left: 500px;
+    text-align: center;
+    height: 370px;
+    font-size: 20px;
+}
+
+#about-us-text {
+	grid-column: 1/-1;
+	/* Remove as content will dictate height */
+	height: 580px;
+	margin-top: 70px;
+	margin-bottom: 40px;
+    margin-left: 530px;
+}
+
+.about-us-photo {
+	grid-column: 1/-1;
+	display: block;
+	margin: 20px auto 0 auto;
+    margin-left: 510px;
+}
+
