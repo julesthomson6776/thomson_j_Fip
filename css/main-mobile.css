@@ -96,3 +96,167 @@ you work on and the intended audience, we may go as low as 320px */
 	height: 458px;
    margin-left: 510px;
 }
+
+/*slider images*/
+
+#image-slider-con {
+	background-color: #dddddd;
+	/* Remove as content will dictate height */
+	height: 640px;
+	position: relative;
+    width: 450px;
+    margin-left: 500px;
+    text-align: center;
+    background-color: #8fbc8f;
+    font-size: 15px;
+}
+
+#image-slider-con h2 {
+	background-color: #ffffff;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	margin: 0;
+}
+
+
+#mobile-slider-left {
+	position: absolute;
+	left: 0;
+	font-size: 120px;
+	color:#fff;
+	top: 200px;
+    
+}
+
+#mobile-slider-right {
+	position: absolute;
+	right: 0;
+	font-size: 120px;
+	color:#fff;
+	top: 200px;
+}
+
+
+#about-us-con h2 {
+	background-color: #ffffff;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 70px;
+	margin: 0;
+}
+
+#about-us-text-con {
+	background-color:#8fbc8f;
+    width: 450px;
+    margin-left: 500px;
+    text-align: center;
+    height: 370px;
+    font-size: 20px;
+}
+
+#about-us-text {
+	grid-column: 1/-1;
+	/* Remove as content will dictate height */
+	height: 580px;
+	margin-top: 70px;
+	margin-bottom: 40px;
+    margin-left: 530px;
+}
+
+.about-us-photo {
+	grid-column: 1/-1;
+	display: block;
+	margin: 20px auto 0 auto;
+    margin-left: 510px;
+}
+
+#contact-us-con {
+	margin-top: 100px;
+	margin-bottom: 60px;
+    margin-left: 510px;
+    
+}
+
+#contact-text {
+	grid-column: 1/-1;
+	/* Remove as content will dictate height */
+	height: 350px;
+	margin-bottom: 80px;
+    background-color: #8fbc8f;
+    color: #000;
+    
+}
+
+#contact-form {
+	grid-column: 1/-1;
+	/* Remove as content will dictate height */
+	height: 580px;
+    background-color: #8fbc8f;
+    color: #000;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid black; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+    
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+
+  .container {
+    border-radius: 5px;
+    background-color:#8fbc8f;
+    padding: 20px;
+    color:  black;
+  }
+
+  #footer-con {
+	height: 410px;
+	background-color:#8fbc8f;
+	width: 400px;
+	margin-left: 530px;
+}
+
+#footer-box {
+	margin-top: 40px;
+	/* Remove as content will dictate height */
+	height:45px;
+	grid-column: 1/3;
+	background-color: #2e8b57;
+	text-align: center;
+	
+}
+
+#footer-newsletter {
+	margin-top: 100px;
+	/* Remove as content will dictate height */
+	height:100px;
+	grid-column: 1/-1;
+	background-color: #2e8b57;
+	margin-right: 20px;
+	margin-left: -10px;
+	text-align: center;
+}
+
+
+
